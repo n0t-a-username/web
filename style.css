@@ -21,5 +21,65 @@ body{
 
 .card{
     color: var(--clr-accent-400);
-    background-image: url(img);
+    background-image: url(img/adventure.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    max-width: 35ch;
+    border-radius: .7rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
 }
+
+.card-hover {scale: 0.5;}
+
+.card-content {
+    --padding: 1.5rem;
+    padding: var(--padding);
+    background: linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(20 0% 0% / 0.3) 20%,
+        hsl(0 0% 0% / 1)
+    );
+
+}
+
+.card-title {
+    position: relative;
+    width: max-content;
+}
+
+.card-title::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: calc(100% + var(--padding));
+    left: calc(var(--padding) * -1);
+    bottom: 0;
+    background: var(--clr-accent-400);
+    transform: scaleX(0);
+    transition: transform 500ms ease;
+}
+
+.card-hover .card-title::after {
+    transform: scaleX(1);
+}
+
+.card-body{
+    color: rgb (255 255 255 / 0.85);
+}
+
+.button {
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+    color: var(--clr-neutral-900);
+    background-color: var(--clr-accent-400);
+    padding: 0.5em 1.25em;
+    border-radius: .25em;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--clr-neutral-100);
+}
+
