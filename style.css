@@ -12,7 +12,8 @@
 }
 
 body{
-    display: grid;
+    display: flex;
+  justify-content: center;
     min-height: 100vh;
     place-items: center;
     line-height: 1.6;
@@ -25,6 +26,7 @@ body{
     background-image: url(img/adventure.jpg);
     background-size: cover;
     padding: 10rem 0 0;
+  margin: 10px;
     max-width: 35ch;
     border-radius: .7rem;
     overflow: hidden;
