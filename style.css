@@ -21,7 +21,7 @@ body{
 }
 
 .card{
-    color: var(--clr-accent-400);
+    color: var(--clr-neutral-100);
     background-image: url(img/adventure.jpg);
     background-size: cover;
     padding: 10rem 0 0;
@@ -58,7 +58,7 @@ body{
     width: calc(100% + var(--padding));
     left: calc(var(--padding) * -1);
     bottom: 0;
-    background: var(--clr-neutral-100);
+    background: var(--clr-accent-400);
     transform: scaleX(0);
     transition: transform 500ms ease;
 }
