@@ -58,7 +58,7 @@ body{
     width: calc(100% + var(--padding));
     left: calc(var(--padding) * -1);
     bottom: 0;
-    background: var(--clr-accent-400);
+    background: var(--clr-neutral-100);
     transform: scaleX(0);
     transition: transform 500ms ease;
 }
