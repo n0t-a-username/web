@@ -2,6 +2,7 @@
     --clr-neutral-900: hsl(207, 19%, 9%);
     --clr-neutral-100: hsl(0, 0%, 100%);
     --clr-accent-400: hsl(142, 90%, 61%);
+   --trickyScale: 1;
 
 }
 
@@ -12,33 +13,27 @@
 }
 
 body{
-    
-  justify-content: center;
-    display: flex;
-  
+    display: grid;
     min-height: 100vh;
     place-items: center;
     line-height: 1.6;
     background: var(--clr-neutral-900);
     font-family: sans-serif;
+    font-display: var(--clr-neutral-100);
 }
 
-
-
 .card{
+  transform: scale(var(--trickyScale));
     color: var(--clr-neutral-100);
-  overflow-x: scroll;
-    overflow:scroll;
-    flex: 0 0 auto;
     background-image: url(img/adventure.jpg);
     background-size: cover;
     padding: 10rem 0 0;
-  margin: 10px;
     max-width: 35ch;
     border-radius: .7rem;
     overflow: hidden;
     transition: transform 500ms ease;
 }
+
 
 .card:hover {
     transform: scale(1.05);
@@ -67,7 +62,7 @@ body{
     width: calc(100% + var(--padding));
     left: calc(var(--padding) * -1);
     bottom: 0;
-    background: var(--clr-neutral-100);
+    background: var(--clr-accent-400);
     transform: scaleX(0);
     transition: transform 500ms ease;
 }
