@@ -18,11 +18,10 @@ body{
     line-height: 1.6;
     background: var(--clr-neutral-900);
     font-family: sans-serif;
-    font-display: var(--clr-neutral-100);
 }
 
 .card{
-    color: var(--clr-neutral-100);
+    color: var(--clr-accent-400);
     background-image: url(img/adventure.jpg);
     background-size: cover;
     padding: 10rem 0 0;
