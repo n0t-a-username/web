@@ -120,6 +120,7 @@ body.menu-toggled > .meta-link > span {
   gap: 5px;
   left: 10px;
   padding: 10px 20px;
+  text-align: center;
   position: fixed;
   text-decoration: none;
   transition: background-color 400ms, border-color 400ms;
