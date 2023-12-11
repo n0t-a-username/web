@@ -25,6 +25,7 @@ body{
 }
 
 .card{
+    pointer-events: none;
     z-index: 10000;
     color: var(--clr-neutral-100);
     background-image: url(img/adventure.jpg);
@@ -93,10 +94,9 @@ body{
 
 
 
-
 .image {
   z-index: -10000;
-  width: 40vmin;
+  width: 35vmin;
   position: absolute;
   transform: translate(-50%, -50%);
 }
