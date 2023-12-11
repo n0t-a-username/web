@@ -94,6 +94,7 @@ body{
 
 
 .image {
+    overflow: hidden;
   z-index: -10000;
   width: 35vmin;
   position: absolute;
