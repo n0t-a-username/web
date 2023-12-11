@@ -25,7 +25,7 @@ body{
 }
 
 .card{
-    pointer-events: none;
+    
     z-index: 10000;
     color: var(--clr-neutral-100);
     background-image: url(img/adventure.jpg);
