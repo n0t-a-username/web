@@ -91,24 +91,6 @@ body{
     background-color: var(--clr-neutral-100);
 }
 
-
-
-.image {
-    overflow: hidden;
-  z-index: -10000;
-  width: 35vmin;
-  position: absolute;
-  transform: translate(-50%, -50%);
-}
-
-.image[data-status="inactive"] {
-  display: none;
-}
-
-.image[data-status="active"] {
-  display: block;
-}
-
 body.menu-toggled > .meta-link > span {
   color: rgb(30, 30, 30);
 }
@@ -159,3 +141,21 @@ body.menu-toggled > .meta-link > span {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
 }
+
+.image {
+    overflow: hidden;
+  z-index: -10000;
+  width: 35vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.image[data-status="inactive"] {
+  display: none;
+}
+
+.image[data-status="active"] {
+  display: block;
+}
+
+
