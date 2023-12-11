@@ -13,6 +13,8 @@
 
 body{
     display: grid;
+     z-index: 0;
+ background-color: hsl(207, 19%, 9% / 0.05);
     backdrop-filter: blur(3px);
     min-height: 100vh;
     overflow: hidden;
@@ -93,7 +95,7 @@ body{
 
 
 .image {
-   z-index:0;
+  z-index: -10000;
   width: 40vmin;
   position: absolute;
   transform: translate(-50%, -50%);
