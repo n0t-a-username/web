@@ -18,8 +18,7 @@ body{
     backdrop-filter: blur(3px);
     min-height: 100vh;
     overflow: hidden;
-    position:relative
-    overflow-x: hidden
+    overflow-x: hidden;
     place-items: center;
     line-height: 1.6;
     background: var(--clr-neutral-900);
